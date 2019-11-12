@@ -114,3 +114,19 @@ if (palindrome == rev):
   print("YES! Is palindrome!")
 else:
   print("NOOO!!!! Is NOTTTTT palindrome!")
+
+
+📌 📍 ✂️📌 📍 ✂️📌 📍 ✂️📌 📍 ✂️📌 📍 ✂️ 
+ # What about numbers? Try this out! 
+📌 📍 ✂️📌 📍 ✂️📌 📍 ✂️📌 📍 ✂️📌 📍 ✂️
+
+print("Check if your number is palindrome or not!!!")
+user_input = input('Please, enter a number: ')
+try:
+    val = int(user_input)
+    if user_input == str(user_input)[::-1]:
+        print('YEAHHHH!!! The number {} is Palindrome!!!'.format(user_input))
+    else:
+        print('OHHHHH! The number {} is NOT a palindrome!'.format(user_input)
+except ValueError:
+    print("UPPPSSS! You have entered an invalid number! Try Again !")
