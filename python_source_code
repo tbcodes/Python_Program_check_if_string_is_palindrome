@@ -127,6 +127,6 @@ try:
     if user_input == str(user_input)[::-1]:
         print('YEAHHHH!!! The number {} is Palindrome!!!'.format(user_input))
     else:
-        print('OHHHHH! The number {} is NOT a palindrome!'.format(user_input)
+        print('OHHHHH! The number {} is NOT a palindrome!'.format(user_input))
 except ValueError:
     print("UPPPSSS! You have entered an invalid number! Try Again !")
